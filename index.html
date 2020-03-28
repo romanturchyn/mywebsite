@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Roman Turchyn CV</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Roman Turchyn &amp; HTML CV">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<style>
+		.intro h1:before {
+			/* Background word */
+			content: 'ROMAN';
+		}
+	</style>
+</head>
+<body>
+	<!-- Navigation -->
+	<div class="main-nav">
+		<div class="container">
+			<header class="group top-nav">
+				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+				    <span class="logo">ROMAN</span>
+				</div>
+			    <nav id="navbar-1" class="navbar item-nav">
+				    <ul>
+				        <li class="active"><a href="#about">About</a></li>
+				        <li><a href="#experiences">Experiences</a></li>
+				        <li><a href="#achievements">Achievments</a></li>
+				        <li><a href="#skills">Skills</a></li>
+				    </ul>
+				</nav>
+			</header>
+		</div>
+	</div>
+
+	<!-- Introduction -->
+	<div class="intro section" id="about">
+		<div class="container">
+			<p>Hi, I’m Roman Turchyn</p>
+			<div class="units-row units-split wrap">
+				<div class="unit-20">
+					<img src="img/ava.jpg" alt="Avatar">
+				</div>
+				<div class="unit-80">
+					<h1>I want to be a<br><span id="typed"></span></h1>
+				</div>
+				<p>
+					Draco is a constellation in the far northern sky. Its name is Latin for dragon. Draco is circumpolar (that is, never setting) for many observers in the northern hemisphere. It was one of the 48 constellations listed by the 2nd century astronomer Ptolemy.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Work Experience -->
+	<div class="work section second" id="experiences">
+		<div class="container">
+			<h1>Work<br>Experiences</h1>
+			<ul class="work-list">
+				<li>2015-present</li>
+				<li><a href="#">Archival information systems</a></li>
+				<li>System administrator/Project manager</li>
+			</ul>
+			<ul class="work-list">
+				<li>2017-present</li>
+				<li><a href="#">Archival information systems</a></li>
+				<li>Field service engineer</li>
+			</ul>
+			<ul class="work-list">
+				<li>2011-2012</li>
+				<li><a href="#">Snake workshop</a></li>
+				<li>Sales manager</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Award & Achievements -->
+	<div class="award section second" id="achievements">
+		<div class="container">
+			<h1>Courses &amp;<br>Sertifications</h1>
+			<ul class="award-list list-flat">
+				<li>October 2019</li>
+				<li>Python course</li>
+				<li>Web Academy programming courses Kyiv</li>
+			</ul>
+			<ul class="award-list list-flat">
+				<li>February 2019</li>
+				<li>Zeutschel scanning systems OS14000/OS15000/Zeta (maintenance, operate and repair)</li>
+				<li>Zeutschel GmbH</li>
+			</ul>
+			<ul class="award-list list-flat">
+				<li>September 2018</li>
+				<li>Zeutschel scanning systems OS12000/12002 (maintenance, operate and repair)</li>
+				<li>Zeutschel GmbH</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Technical Skills -->
+	<div class="skills section second" id="skills">
+		<div class="container">
+			<h1>Technical<br>Skills</h1>
+			<ul class="skill-list list-flat">
+				<li>Tools</li>
+				<li>Git / Ansible / Docker / Jenkins / Vagrant / Nagios / Phantom / Sentry</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Virtualization</li>
+				<li>VMware ESXi / Docker / Virtualbox / AWS EC2</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Other</li>
+				<li>Python / Bash / HTML / Django</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Quote -->
+	<!div class="quote">
+		<!div class="container text-centered">
+			<!h1><!/h1>
+		<!/div>
+	<!div>
+
+	<footer>
+		<div class="container">
+			<div class="units-row">
+			    <div class="unit-50">
+			    	<p>2020 Roman Turchyn</p>
+			    </div>
+			    <div class="unit-50">
+					<ul class="social list-flat right">
+						<li><a href="mailto:romturchyn@gmail.com"><i class="fa fa-send"></i></a></li>
+						<li><a href="https://github.com/romanturchyn"><i class="fa fa-github"></i></a></li>
+						<li><a href="https://www.facebook.com/roman.turchyn"><i class="fa fa-facebook"></i></a></li>
+					</ul>
+			    </div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Javascript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
+    <script>
+		function newTyped(){}$(function(){$("#typed").typed({
+		// Change to edit type effect
+		strings: ["DevOps", "engineer"],
+
+		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+    </script>
+</body>
+</html>
